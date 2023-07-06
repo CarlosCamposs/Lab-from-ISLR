@@ -96,6 +96,20 @@ plot(Auto$mpg, Auto$year)
           # Displacement, horsepower, weight
 
 
+############### 
+# Ex. 10
 
+# (a)
+library(ISLR2)
+?Boston
+View(Boston)
+          # 506 rows, 13 columns
+
+# (b)
+plot(Boston$age, Boston$crim)
+          # Entre mas vieja la casa, mas crimen
+
+# (c)
+pairs(Boston)
 
 
